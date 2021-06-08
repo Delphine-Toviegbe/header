@@ -1,0 +1,97 @@
+body{
+	margin: 0px;
+	border-top: solid #ebebeb 30px;
+	border-bottom: solid #ebebeb 30px;
+	border-left: solid #ebebeb 55px;
+	border-right: solid #ebebeb 55px;
+}
+#nav1{
+	margin: 2%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #ebebeb;
+}
+#nav1>ul{
+	display: flex;
+	padding-left: 1%;
+}
+nav>ul>li:hover ul{
+	visibility: visible;
+}
+ ul{
+	list-style-type: none;
+}
+#nav1 li{
+	border-right: solid 1.5px #CCCCCC;
+	color: #999999;
+	font-size: 1.1em;
+}
+#form1 input{
+	height: 90%;
+	font-size: 1.1em;
+	margin: 0px;
+}
+#nav1 #input1{
+	width: 65.5%;
+}
+#nav1 #input2{
+	width: 30%;
+	text-align: center;
+	background-color: #ebebeb;
+}
+.sousListeNav{
+	position: absolute;
+	visibility: hidden;
+	font-size: 1.2em;
+	background-color: white;
+	border: solid 1px #ebebeb;
+	line-height: 50px;
+}
+.sousListeNav a{
+	text-decoration: none;
+	background-color: white;
+	margin-right: 35px;
+	color: #999999; 
+}
+#nav1 .sousListeNav{
+	margin-left: -10px;
+	margin-top: 15px;
+}
+#nav2 .sousListeNav{
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+#image1{
+	width: 70%;
+	margin-right: 1%;
+}
+#image2{
+	width: 23%;
+	margin-left: 2%;
+}
+
+#nav2>ul{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #555555;
+	padding-left: 10px;
+}
+.listeNav2{
+	border-right: solid 1px #1a1a1a;
+	padding: 20px;
+	font-size: 1.3em;
+	color: #ededed; 
+}
+#Accueil{
+	border-right: solid 1px #1a1a1a;
+	padding-top: 18px;
+	padding-right: 20px;
+	padding-left: 0px;
+	font-size: 1.3em;
+	color: #ededed;
+}
+
+.image4{ 
+	width: 8px;
+}
